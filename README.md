@@ -21,7 +21,7 @@ Autoregressive language models typically compute the probability of a string by 
 
 1. Clone the repository:
     ```sh
-    [git clone https://github.com/yourusername/tokenization-marginalization.git](https://github.com/sanowl/Tokenization-Marginalization-with-Importance-Sampling.git)
+    https://github.com/sanowl/Tokenization-Marginalization-with-Importance-Sampling.git
     cd tokenization-marginalization
     ```
 
