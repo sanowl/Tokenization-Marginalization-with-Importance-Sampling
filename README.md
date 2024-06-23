@@ -2,7 +2,7 @@
 
 ### README.md
 
-```markdown
+
 # Tokenization Marginalization with Importance Sampling
 
 This project provides a Python implementation of an importance sampling algorithm to estimate the marginalized probability over possible tokenizations using the GPT-2 language model.
@@ -21,7 +21,7 @@ Autoregressive language models typically compute the probability of a string by 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/tokenization-marginalization.git
+    [git clone https://github.com/yourusername/tokenization-marginalization.git](https://github.com/sanowl/Tokenization-Marginalization-with-Importance-Sampling.git)
     cd tokenization-marginalization
     ```
 
