@@ -68,7 +68,8 @@ def log_probability(tokens, model, tokenizer):
     with torch.no_grad():
         outputs = model(**inputs, labels=inputs["input_ids"])
     log_probs = outputs.logits.log_softmax(dim=-1)
-    token_log_probs = log_probs[0, range(len(tokens)), inputs["input_ids"]]
+    token_ids = inputs["input_ids"].squeeze()
+    token_log_probs = log_probs[0, torch.arange(len(token_ids)), token_ids]
     return token_log_probs.sum().item()
 
 def importance_sampling(text, tokenizer, model, num_samples=100):
